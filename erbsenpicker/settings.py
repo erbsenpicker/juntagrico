@@ -15,7 +15,7 @@ SECRET_KEY = '8cd-j&jo=-#ecd1jjulp_s*7y$n4tad(0d_g)l=6@n^r8fg3rn'
 DEBUG = os.environ.get("JUNTAGRICO_DEBUG", 'True')=='True'
 #DEBUG = True
 
-ALLOWED_HOSTS = ['http://www.erbsenpicker.ch','erbsenpicker.juntagrico.science', 'localhost','wir.erbsenpicker.ch', 'https://erbsenpicker.jimdofree.com/']
+ALLOWED_HOSTS = ['http://www.erbsenpicker.ch','erbsenpicker.juntagrico.science', 'localhost','wir.erbsenpicker.ch']
 
 
 # Application definition
@@ -175,7 +175,7 @@ ORGANISATION_BANK_CONNECTION = {"PC" : "xxx",
             "NAME" : "xxx",
             "ESR" : ""}
 INFO_EMAIL = "tech@erbsenpicker.ch"
-SERVER_URL = "https://erbsenpicker.jimdofree.com/"
+SERVER_URL = "https://erbsenpicker.ch/"
 ADMINPORTAL_NAME = "Verein Erbsenpicker"
 ADMINPORTAL_SERVER_URL = "https://erbsenpicker.jimdofree.com/"
 BUSINESS_REGULATIONS = "https://erbsenpicker.jimdofree.com/%C3%BCber-uns/statuten/"
