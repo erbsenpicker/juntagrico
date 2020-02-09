@@ -15,7 +15,7 @@ SECRET_KEY = '8cd-j&jo=-#ecd1jjulp_s*7y$n4tad(0d_g)l=6@n^r8fg3rn'
 DEBUG = os.environ.get("JUNTAGRICO_DEBUG", 'True')=='True'
 #DEBUG = True
 
-ALLOWED_HOSTS = ['http://www.erbsenpicker.ch','erbsenpicker.juntagrico.science', 'localhost','wir.erbsenpicker.ch']
+ALLOWED_HOSTS = ['http://www.erbsenpicker.ch','erbsenpicker.juntagrico.science', 'localhost','wir.erbsenpicker.ch', 'https://erbsenpicker.jimdofree.com/']
 
 
 # Application definition
@@ -175,17 +175,17 @@ ORGANISATION_BANK_CONNECTION = {"PC" : "xxx",
             "NAME" : "xxx",
             "ESR" : ""}
 INFO_EMAIL = "tech@erbsenpicker.ch"
-SERVER_URL = "www.erbsenpicker.ch"
+SERVER_URL = "https://erbsenpicker.jimdofree.com/"
 ADMINPORTAL_NAME = "Verein Erbsenpicker"
-ADMINPORTAL_SERVER_URL = "https://www.erbsenpicker.ch"
-BUSINESS_REGULATIONS = "https://erbsenpicker.jimdo.com/home/statuten/"
+ADMINPORTAL_SERVER_URL = "https://erbsenpicker.jimdofree.com/"
+BUSINESS_REGULATIONS = "https://erbsenpicker.jimdofree.com/%C3%BCber-uns/statuten/"
 BYLAWS = ""
 MAIL_TEMPLATE = "mails/email.html"
 STYLE_SHEET = "/static/css/individual.css"
 FAVICON = "/static/img/favicono.ico"
-FAQ_DOC = "https://erbsenpicker.jimdo.com/home/was-wir-machen/"
+FAQ_DOC = "https://erbsenpicker.jimdofree.com/erntek%C3%B6rbe-eier-milchprodukte-1/"
 EXTRA_SUB_INFO = ""
-ACTIVITY_AREA_INFO = "https://erbsenpicker.jimdo.com/home/%C3%BCber-uns/"
+ACTIVITY_AREA_INFO = "https://erbsenpicker.jimdofree.com/%C3%BCber-uns/"
 SHARE_PRICE = "100"
 ENABLE_SHARES = True
 BASE_FEE = ""
