@@ -177,15 +177,15 @@ ORGANISATION_BANK_CONNECTION = {"PC" : "xxx",
 INFO_EMAIL = "tech@erbsenpicker.ch"
 SERVER_URL = "www.erbsenpicker.ch"
 ADMINPORTAL_NAME = "Verein Erbsenpicker"
-ADMINPORTAL_SERVER_URL = "https://erbsenpicker.jimdofree.com/"
-BUSINESS_REGULATIONS = "https://erbsenpicker.jimdofree.com/%C3%BCber-uns/statuten/"
+ADMINPORTAL_SERVER_URL = "https://www.erbsenpicker.ch"
+BUSINESS_REGULATIONS = "https://erbsenpicker.jimdo.com/home/statuten/"
 BYLAWS = ""
 MAIL_TEMPLATE = "mails/email.html"
 STYLE_SHEET = "/static/css/individual.css"
 FAVICON = "/static/img/favicono.ico"
-FAQ_DOC = "https://erbsenpicker.jimdofree.com/erntek%C3%B6rbe-eier-milchprodukte-1/"
+FAQ_DOC = "https://erbsenpicker.jimdo.com/home/was-wir-machen/"
 EXTRA_SUB_INFO = ""
-ACTIVITY_AREA_INFO = "https://erbsenpicker.jimdofree.com/%C3%BCber-uns/"
+ACTIVITY_AREA_INFO = "https://erbsenpicker.jimdo.com/home/%C3%BCber-uns/"
 SHARE_PRICE = "100"
 ENABLE_SHARES = True
 BASE_FEE = ""
@@ -208,4 +208,3 @@ IMAGES = {'status_100': '/static/img/status_100.png',
             'single_core': '/static/img/single_core.png',
             'core': '/static/img/core.png'}
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
-
