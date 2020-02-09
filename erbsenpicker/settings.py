@@ -175,7 +175,7 @@ ORGANISATION_BANK_CONNECTION = {"PC" : "xxx",
             "NAME" : "xxx",
             "ESR" : ""}
 INFO_EMAIL = "tech@erbsenpicker.ch"
-SERVER_URL = "https://erbsenpicker.ch/"
+SERVER_URL = "www.erbsenpicker.ch"
 ADMINPORTAL_NAME = "Verein Erbsenpicker"
 ADMINPORTAL_SERVER_URL = "https://erbsenpicker.jimdofree.com/"
 BUSINESS_REGULATIONS = "https://erbsenpicker.jimdofree.com/%C3%BCber-uns/statuten/"
