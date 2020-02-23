@@ -19,6 +19,7 @@ ALLOWED_HOSTS = ['http://www.erbsenpicker.ch','erbsenpicker.juntagrico.science',
 
 
 # Application definition
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 INSTALLED_APPS = [
     'django.contrib.auth',
@@ -31,6 +32,7 @@ INSTALLED_APPS = [
     'juntagrico',
     'impersonate',
     'erbsenpicker',
+    'crispy_forms',
 ]
 
 ROOT_URLCONF = 'erbsenpicker.urls'
