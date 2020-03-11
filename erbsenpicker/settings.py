@@ -169,17 +169,16 @@ ORGANISATION_NAME_CONFIG = {"type" : "",
     "gender" : ""}
 ORGANISATION_LONG_NAME = "Verein Erbsenpicker"
 ORGANISATION_ADDRESS = {"name":"Verein Erbsenpicker", 
-            "street" : "Chrummgasse",
-            "number" : "5",
+            "street" : "Im Gässli",
+            "number" : "37",
             "zip" : "8162",
-            "city" : "Sünikon",
-            "extra" : "c/o C. Dünki"}
+            "city" : "Steinmaur",
+            "extra" : "c/o Mirjam Angehrn"}
 ORGANISATION_PHONE =''
-ORGANISATION_BANK_CONNECTION = {"PC" : "xxx",
-            "IBAN" : "xxxx",
-            "BIC" : "xxx",
-            "NAME" : "xxx",
-            "ESR" : ""}
+ORGANISATION_BANK_CONNECTION = {"PC" : "30-38182-1",
+            "IBAN" : "CH88 0838 9045 5945 5910 9",
+            "BIC" : "BZSDCH22XXX",
+            "NAME" : "Bezirks-Sparkasse Dielsdorf"}
 INFO_EMAIL = "tech@erbsenpicker.ch"
 SERVER_URL = "www.erbsenpicker.ch"
 ADMINPORTAL_NAME = "Verein Erbsenpicker"
