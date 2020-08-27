@@ -78,6 +78,7 @@ WSGI_APPLICATION = 'erbsenpicker.wsgi.application'
 
 
 LANGUAGE_CODE = 'de'
+TIME_ZONE = 'Europe/Zurich'
 
 SITE_ID = 1
 
@@ -147,22 +148,9 @@ ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 MEDIA_ROOT = 'media'
 
 VOCABULARY = {
-    'member': 'Mitglied',
-    'member_pl' : 'Mitglieder',
-    'assignment' : 'Arbeitseinsatz',
-    'assignment_pl' : 'Arbeitseinsätze',
-    'share' : 'Anteilschein',
-    'share_pl' : 'Anteilscheine',
-    'subscription' : 'Abo',
-    'subscription_pl' : 'Abos',
-    'co_member' : 'Mitabonnent',
-    'co_member_pl' : 'Mitabonnenten',
-    'price' : 'Mitgliedsbeitrag',
-    'member_type' : 'Mitglied',
-    'member_type_pl' : 'Mitglieder',
-    'depot' : 'Depot',
-    'depot_pl' : 'Depots'
-}
+    'subscription' : 'Ernteanteil',
+    'subscription_pl' : 'Ernteanteile',
+    }
 ORGANISATION_NAME = "Verein Erbsenpicker"
 ORGANISATION_NAME_CONFIG = {"type" : "",
     "gender" : ""}
