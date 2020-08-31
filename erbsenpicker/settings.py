@@ -199,4 +199,6 @@ IMAGES = {'status_100': '/static/img/status_100.png',
             'single_empty': '/static/img/single_empty.png',
             'single_core': '/static/img/single_core.png',
             'core': '/static/img/core.png'}
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+EMAILS = {
+    's_created': 'erbsenpicker/mails/share_created.txt',
+}
